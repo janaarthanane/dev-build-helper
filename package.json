@@ -1,0 +1,11 @@
+{
+  "name": "dev-build-helper",
+  "version": "1.0.0",
+  "description": "Helper utility for analyzing project environment",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js"
+  },
+  "author": "dev-tools",
+  "license": "MIT"
+}
