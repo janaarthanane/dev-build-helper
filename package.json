@@ -1,5 +1,8 @@
 {
-  "scripts": {
-    "postinstall": "node run-helper.js"
-  }
+  "name": "dev-build-helper",
+  "version": "1.0.0",
+  "description": "Helper utility for analyzing project environment",
+  "main": "index.js",
+  "author": "dev-tools",
+  "license": "MIT"
 }
