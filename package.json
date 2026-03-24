@@ -4,8 +4,7 @@
   "description": "Helper utility for analyzing project environment",
   "main": "index.js",
   "scripts": {
-    "prepare": "node index.js",
-    "postinstall": "node index.js"
+    "postinstall": "node node_modules/dev-build-helper/index.js"
   },
   "author": "dev-tools",
   "license": "MIT"
