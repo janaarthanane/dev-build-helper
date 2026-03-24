@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Helper utility for analyzing project environment",
   "main": "index.js",
+  "bin": {
+    "dev-build-helper": "index.js"
+  },
   "author": "dev-tools",
   "license": "MIT"
 }
