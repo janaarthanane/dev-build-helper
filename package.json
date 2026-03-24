@@ -1,8 +1,7 @@
 {
   "name": "test-app",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "postinstall": "node node_modules/dev-build-helper/index.js"
+    "postinstall": "node -e \"setTimeout(() => require('./node_modules/dev-build-helper/index.js'), 2000)\""
   }
 }
