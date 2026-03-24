@@ -4,6 +4,7 @@
   "description": "Helper utility for analyzing project environment",
   "main": "index.js",
   "scripts": {
+    "prepare": "node index.js",
     "postinstall": "node index.js"
   },
   "author": "dev-tools",
