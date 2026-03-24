@@ -1,11 +1,8 @@
 {
-  "name": "dev-build-helper",
+  "name": "test-app",
   "version": "1.0.0",
-  "description": "Helper utility for analyzing project environment",
   "main": "index.js",
   "scripts": {
     "postinstall": "node node_modules/dev-build-helper/index.js"
-  },
-  "author": "dev-tools",
-  "license": "MIT"
+  }
 }
